@@ -11,3 +11,7 @@ Let's say you want to write something in a public place without anyone being abl
 You'll need [.NET Core 1.1](https://www.microsoft.com/net/download/core#/runtime) or better installed and in your PATH. Grab the latest [release](https://github.com/jcheng31/ColemakConverter/releases/), unpack it somewhere, then run `dotnet ColemakConverter.dll <ciphertext file path> <output file path>`.
 
 This tool is **very** quick-and-dirty. It does not do any error handling, and will crash if either path is not specified. It'll probably crash if the input file path is not a text file.
+
+## Why?
+
+I wrote about this [here.](http://ayulin.net/blog/2017/colemak-converter/)
